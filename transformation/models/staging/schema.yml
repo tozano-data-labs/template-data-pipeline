@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_exemple
+    description: Modèle d'exemple à remplacer par la première source réelle.
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: ingested_at
+        tests:
+          - not_null

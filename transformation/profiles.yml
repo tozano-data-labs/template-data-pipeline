@@ -1,0 +1,7 @@
+template_data_pipeline:
+  target: ci
+  outputs:
+    ci:
+      type: duckdb
+      path: "{{ env_var('DBT_DUCKDB_PATH', ':memory:') }}"
+      threads: 1

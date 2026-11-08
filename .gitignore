@@ -1,0 +1,30 @@
+# Environnements
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# dbt
+target/
+dbt_packages/
+logs/
+*.duckdb
+*.duckdb.wal
+
+# Sorties locales
+out/
+data/
+!pipelines/exemples/
+
+# OS / éditeurs
+.DS_Store
+.idea/
+.vscode/
